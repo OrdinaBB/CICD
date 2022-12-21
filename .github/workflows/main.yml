@@ -2,7 +2,7 @@ name: Go test CI/CD
 run-name: ${{ github.actor }} CICD
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  CICD-Go-Test:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
